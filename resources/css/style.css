@@ -25,10 +25,13 @@ header {
   background-color: black;
 }
 
-.flex-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+p {
+    display: block;
 }
 
 header img {
@@ -40,7 +43,6 @@ nav {
   text-align: right;
   flex-grow: 1;
   padding-right: 10px;
-  text-decoration: underline;
 }
 
 nav span {
@@ -50,6 +52,13 @@ nav span {
 
 a {
   color: seashell;
+  text-decoration: underline;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #mission {
@@ -69,12 +78,6 @@ a {
   width: 1000px;
   margin: auto;
   padding-top: 70px;
-}
-
-.flex-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
 .item {
